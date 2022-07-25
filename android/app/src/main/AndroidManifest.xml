@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.efa.app.game_health_efa">
+    package="com.carre.gameapp">
    <application
-        android:label="Quiz E-Fa"
+        android:label="Carre quiz"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

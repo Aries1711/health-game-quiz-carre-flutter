@@ -1,4 +1,4 @@
-package com.efa.app.game_health_efa
+package com.carre.gameapp
 
 import io.flutter.embedding.android.FlutterActivity
 
