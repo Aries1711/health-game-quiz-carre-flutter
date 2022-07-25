@@ -46,12 +46,12 @@ class _IntroScreenState extends State<IntroScreen> {
                 child: Align(
                   alignment: Alignment.center,
                   child: Text(
-                    "Education First Game adalah game quis seputar pertolongan pertama",
+                    "Carre Game adalah game quiz seputar cardiac arrest atau henti jantung",
                     textAlign: TextAlign.center,
                     style: GoogleFonts.rubik(
                       textStyle: TextStyle(
                         fontWeight: FontWeight.w500,
-                        color: colorBlackSecondary,
+                        color: colorWhite,
                         fontSize: 16,
                       ),
                     ),
@@ -84,7 +84,7 @@ class _IntroScreenState extends State<IntroScreen> {
                     onPress: () {
                       Navigator.of(context).pushNamed('/info');
                     },
-                    backgroundColor: colorPurplePrimary,
+                    backgroundColor: colorOrange,
                     widgetChild: Text(
                       "Tentang Game",
                       style: GoogleFonts.rubik(

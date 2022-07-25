@@ -15,7 +15,7 @@ class _InfoScreenState extends State<InfoScreen> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: colorYellowSecondary,
+      backgroundColor: colorWhite,
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -49,7 +49,7 @@ class _InfoScreenState extends State<InfoScreen> {
                         children: <TextSpan>[
                           TextSpan(text: 'Tentang '),
                           TextSpan(
-                            text: "E-Fa",
+                            text: "Carre",
                             style: GoogleFonts.rubik(
                               textStyle: TextStyle(
                                 fontWeight: FontWeight.w700,
@@ -80,7 +80,7 @@ class _InfoScreenState extends State<InfoScreen> {
                           TextSpan(text: '\nHalo kawan semua… \n '),
                           TextSpan(
                             text:
-                                "\nPerkenalkan… E-Fa (Education First Aid) merupakan permainan berbasis kuis yang dapat dipelajari kapan saja dan di mana saja menggunakan smartphone. E-Fa Game hadir untuk memudahkan siswa untuk mempelajari konsep pertolongan pertama pada kasus-kasus cedera antara lain : luka, perdarahan dan cedera ekstremitas yang sering kita temui. Diharapkan E-Fa Game dapat dihadikan media edukasi yang menyenangkan untuk meningkatkan pengetahuan pada pertolongan pertama cedera.",
+                                "\nGame CARRE (Cardiac Arrest) hadir untuk memudahkan siswa dalam mempelajari cardiac arrest atau henti jantung yang menarik, menyenangkan, dan tetap fokus belajar. Game CARRE merupakan aplikasi edukasi untuk anak di bangku sekolah yang bisa dipelajari kapan saja di mana saja dengan smartphone. Edukasi dalam Game CARRE berupa permainan atau aktivitas menyenangkan yang memuat konten pendidikan cardiac arrest dan Resusitasi Jantung Paru (RJP). Siswa yang mempelajari Game CARRE akan meningkatkan pengetahuan dan menumbuhkan sikap untuk memberikan bantuan pada korban cardiac arrest di luar rumah sakit, sehingga dapat meningkatkan harapan hidup korban cardiac arrest.",
                             style: GoogleFonts.rubik(
                               textStyle: TextStyle(
                                 fontWeight: FontWeight.w500,
@@ -121,10 +121,10 @@ class _InfoScreenState extends State<InfoScreen> {
                             ),
                           ),
                           children: <TextSpan>[
-                            TextSpan(text: 'E-Fa Game dibuat oleh:\n '),
+                            TextSpan(text: 'Carre Game dibuat oleh:\n '),
                             TextSpan(
                               text:
-                                  "\n1.	Eky Madyaning Nastiti, S.Kep., Ns., M.Kep \n\n2.	Rida Darotin, S.Kep., Ns., M.Kep",
+                                  "\n1.	Guruh Wirasakti, S.Kep., Ns., M.Kep. \n\n2.	Yunita Wahyu Wulansari, S.Kep., Ns., M.Kep. \n\n3.	Feri Ekaprasetia, S.Kep., Ns., M.Kep",
                               style: GoogleFonts.rubik(
                                 textStyle: TextStyle(
                                   fontWeight: FontWeight.w500,

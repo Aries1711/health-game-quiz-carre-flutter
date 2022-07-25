@@ -46,7 +46,7 @@ class CardLevel extends StatelessWidget {
                   style: GoogleFonts.rubik(
                     textStyle: TextStyle(
                       fontWeight: FontWeight.w700,
-                      color: colorPurplePrimary,
+                      color: colorBlackPrimary,
                       fontSize: 18,
                     ),
                   ),

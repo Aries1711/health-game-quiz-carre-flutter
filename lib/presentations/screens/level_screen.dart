@@ -61,7 +61,7 @@ class _LevelsScreenState extends State<LevelsScreen> {
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w800,
-                              color: colorPurplePrimary,
+                              color: colorBlackPrimary,
                               fontSize: 22,
                             ),
                           ),
@@ -173,7 +173,7 @@ class _LevelsScreenState extends State<LevelsScreen> {
                                       .pushNamed('/level_c/question_a');
                                 }
                               },
-                              backgroundColor: colorPurplePrimary,
+                              backgroundColor: colorOrange,
                               widgetChild: Text(
                                 "START",
                                 style: GoogleFonts.rubik(
@@ -236,7 +236,7 @@ class _LevelsScreenState extends State<LevelsScreen> {
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w800,
-                              color: colorPurplePrimary,
+                              color: colorBlackPrimary,
                               fontSize: 22,
                             ),
                           ),
@@ -261,7 +261,7 @@ class _LevelsScreenState extends State<LevelsScreen> {
                   Padding(
                     padding: EdgeInsets.only(left: 20, right: 20),
                     child: Text(
-                      "Dalam permainan game E-Fa pemain harus menyelesaikan setiap level dengan skor kelulusan maksimum untuk bisa lanjut memilih level selanjutnya",
+                      "Dalam permainan game Carre pemain harus menyelesaikan setiap level dengan skor kelulusan maksimum untuk bisa lanjut memilih level selanjutnya",
                       textAlign: TextAlign.start,
                       style: GoogleFonts.rubik(
                         textStyle: TextStyle(
@@ -350,7 +350,7 @@ class _LevelsScreenState extends State<LevelsScreen> {
                       style: GoogleFonts.rubik(
                         textStyle: TextStyle(
                           fontWeight: FontWeight.w800,
-                          color: colorPurplePrimary,
+                          color: colorBlackPrimary,
                           fontSize: 22,
                         ),
                       ),
@@ -401,7 +401,7 @@ class _LevelsScreenState extends State<LevelsScreen> {
                         await globalPreferences.resetData();
                         await Navigator.of(context).pushNamed('/');
                       },
-                      backgroundColor: colorPurplePrimary,
+                      backgroundColor: colorOrange,
                       widgetChild: Text(
                         "LANJUT",
                         style: GoogleFonts.rubik(
@@ -461,7 +461,7 @@ class _LevelsScreenState extends State<LevelsScreen> {
                     child: Align(
                       alignment: Alignment.center,
                       child: Text(
-                        "E-Fa (Education First Aid)",
+                        "Game Carre (Cardiac Arrest)",
                         textAlign: TextAlign.center,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -568,7 +568,7 @@ class _LevelsScreenState extends State<LevelsScreen> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Aturan main E-Fa",
+                          "Aturan main Carre",
                           textAlign: TextAlign.center,
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
@@ -648,7 +648,7 @@ class _LevelsScreenState extends State<LevelsScreen> {
               },
             ),
             Container(
-              margin: EdgeInsets.only(top: 20),
+              margin: EdgeInsets.only(top: 20, bottom: 40),
               width: size.width,
               child: Align(
                 alignment: Alignment.center,

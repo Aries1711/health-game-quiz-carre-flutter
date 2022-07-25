@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:game_health_efa/constant/colors.dart';
 import 'package:game_health_efa/logic/function/global_preferences.dart';
 import 'package:game_health_efa/logic/function/helper.dart';
+import 'package:game_health_efa/presentations/screens/level_1/question_c.dart';
 import 'package:game_health_efa/presentations/widgets/button_general.dart';
 import 'package:game_health_efa/presentations/widgets/button_general_seconday.dart';
 import 'package:game_health_efa/presentations/widgets/card_player.dart';
@@ -101,7 +102,14 @@ class _QuestionBState extends State<QuestionB> {
                       padding: const EdgeInsets.all(20),
                       child: ButtonGeneralSecondary(
                         onPress: () {
-                          Navigator.of(context).pushNamed('/level_a/finish');
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => QuestionC(
+                                title: 'number 2',
+                              ),
+                            ),
+                          );
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
@@ -197,7 +205,14 @@ class _QuestionBState extends State<QuestionB> {
                       padding: const EdgeInsets.all(20),
                       child: ButtonGeneralSecondary(
                         onPress: () {
-                          Navigator.of(context).pushNamed('/level_a/finish');
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => QuestionC(
+                                title: 'number 2',
+                              ),
+                            ),
+                          );
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(

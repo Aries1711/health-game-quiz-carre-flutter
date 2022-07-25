@@ -4,21 +4,21 @@ import 'package:flutter/material.dart';
 import 'package:game_health_efa/constant/colors.dart';
 import 'package:game_health_efa/logic/function/global_preferences.dart';
 import 'package:game_health_efa/logic/function/helper.dart';
-import 'package:game_health_efa/presentations/screens/level_1/question_b.dart';
+import 'package:game_health_efa/presentations/screens/level_1/question_e.dart';
 import 'package:game_health_efa/presentations/widgets/button_general.dart';
 import 'package:game_health_efa/presentations/widgets/button_general_seconday.dart';
 import 'package:game_health_efa/presentations/widgets/card_player.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class QuestionA extends StatefulWidget {
+class QuestionD extends StatefulWidget {
   final String title;
-  QuestionA({Key? key, required this.title}) : super(key: key);
+  QuestionD({Key? key, required this.title}) : super(key: key);
 
   @override
-  State<QuestionA> createState() => _QuestionAState();
+  State<QuestionD> createState() => _QuestionDState();
 }
 
-class _QuestionAState extends State<QuestionA> {
+class _QuestionDState extends State<QuestionD> {
   HelperFunction helperFunction = HelperFunction();
   GlobalPreferences globalPreferences = GlobalPreferences();
   String nameUser = "pemain", genderUser = "Laki-laki";
@@ -82,12 +82,12 @@ class _QuestionAState extends State<QuestionA> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_a/question_a.png'),
+                          Image.asset('assets/images/level_a/question_b.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Jawaban: Otak \nPenjelasan:Komposisi pada otak kita hanya 2% dari total massa tubuh, namun membutuhkan 20% dari total oksigen. Artinya, seperlima suplai oksigen dari jantung yang masuk ke tubuh kita saat bernapas akan langsung lari ke otak.",
+                        "Cedera yang dialami seseorang dapat memberikan dampak pada orang yang mengalaminya. Oleh sebab itu cedera harus dapat diminimalisir  supaya dampak yang buruk dapat dikurangi. Dampak yang muncul antara lain : Dapat menyebabkan kecacatan, menurunkan produktivitas dalam bekerja dan biaya perawatan rumah sakit yang tinggi.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -98,36 +98,6 @@ class _QuestionAState extends State<QuestionA> {
                         ),
                       ),
                     ),
-                    // Padding(
-                    //   padding: const EdgeInsets.only(
-                    //     top: 20,
-                    //     left: 20,
-                    //     right: 20,
-                    //   ),
-                    //   child: ButtonGeneralSecondary(
-                    //     onPress: () {
-                    //       launchDescriptionUrl();
-                    //     },
-                    //     backgroundColor: colorPurplePrimary,
-                    //     widgetChild: Row(
-                    //       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    //       children: <Widget>[
-                    //         Text(
-                    //           "VIDEO PENJELASAN",
-                    //           style: GoogleFonts.rubik(
-                    //             textStyle: TextStyle(
-                    //               fontWeight: FontWeight.w600,
-                    //               color: colorWhite,
-                    //               fontSize: 14,
-                    //             ),
-                    //           ),
-                    //         ),
-                    //         Image.asset('assets/images/youtube-button.png')
-                    //       ],
-                    //     ),
-                    //     textColor: colorWhite,
-                    //   ),
-                    // ),
                     Padding(
                       padding: const EdgeInsets.all(20),
                       child: ButtonGeneralSecondary(
@@ -135,7 +105,7 @@ class _QuestionAState extends State<QuestionA> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (_) => QuestionB(
+                              builder: (_) => QuestionE(
                                 title: 'number 2',
                               ),
                             ),
@@ -215,12 +185,12 @@ class _QuestionAState extends State<QuestionA> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_a/question_a.png'),
+                          Image.asset('assets/images/level_a/question_b.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Jawaban: Otak \nPenjelasan:Komposisi pada otak kita hanya 2% dari total massa tubuh, namun membutuhkan 20% dari total oksigen. Artinya, seperlima suplai oksigen dari jantung yang masuk ke tubuh kita saat bernapas akan langsung lari ke otak.",
+                        "Cedera yang dialami seseorang dapat memberikan dampak pada orang yang mengalaminya. Oleh sebab itu cedera harus dapat diminimalisir  supaya dampak yang buruk dapat dikurangi. Dampak yang muncul antara lain : Dapat menyebabkan kecacatan, menurunkan produktivitas dalam bekerja dan biaya perawatan rumah sakit yang tinggi.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -238,7 +208,7 @@ class _QuestionAState extends State<QuestionA> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (_) => QuestionB(
+                              builder: (_) => QuestionE(
                                 title: 'number 2',
                               ),
                             ),
@@ -271,9 +241,11 @@ class _QuestionAState extends State<QuestionA> {
   onLoadPage() async {
     String nameUserSave = await globalPreferences.getFullname();
     String genderUserSave = await globalPreferences.getGender();
+    int pointUserInt = await globalPreferences.getScoreLevelOne();
     setState(() {
       nameUser = nameUserSave;
       genderUser = genderUserSave;
+      pointUser = pointUserInt;
     });
   }
 
@@ -307,7 +279,7 @@ class _QuestionAState extends State<QuestionA> {
                         Padding(
                           padding: EdgeInsets.only(top: 80),
                           child: Image.asset(
-                              'assets/images/level_a/question_a.png',
+                              'assets/images/level_a/question_b.png',
                               height: 250,
                               fit: BoxFit.contain),
                         )
@@ -350,7 +322,7 @@ class _QuestionAState extends State<QuestionA> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "1.	Disebut apakah organ tubuh pada gambar tersebut?",
+                          "Dampak yang berbahaya saat terkena cedera adalah dibawah ini kecuali...",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -370,7 +342,7 @@ class _QuestionAState extends State<QuestionA> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Paru-paru",
+                          "Dapat menyebabkan kecacatan",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -390,7 +362,27 @@ class _QuestionAState extends State<QuestionA> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Jantung",
+                          "Biaya perawatan rumah sakit yang tinggi",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Penurunan produktivitas dalam bekerja",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -411,27 +403,7 @@ class _QuestionAState extends State<QuestionA> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Otak",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Lambung",
+                          "Membuat orang sedih",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
