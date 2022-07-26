@@ -28,7 +28,7 @@ class _QuestionEState extends State<QuestionE> {
     // Uri surveyUrlPatch = Uri(
     //     scheme: 'https', host: 'www.youtube.com', path: '/watch?v=odjUjKzVDXo');
     Uri surveyUrlPatch =
-        Uri.parse('https://www.youtube.com/watch?v=odjUjKzVDXo');
+        Uri.parse('https://www.youtube.com/watch?v=R4P-AkzDypE');
     helperFunction.launchUrlExternal(surveyUrlPatch);
   }
 
@@ -82,12 +82,12 @@ class _QuestionEState extends State<QuestionE> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_a/question_b.png'),
+                          Image.asset('assets/images/level_a/question_e.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Cedera yang dialami seseorang dapat memberikan dampak pada orang yang mengalaminya. Oleh sebab itu cedera harus dapat diminimalisir  supaya dampak yang buruk dapat dikurangi. Dampak yang muncul antara lain : Dapat menyebabkan kecacatan, menurunkan produktivitas dalam bekerja dan biaya perawatan rumah sakit yang tinggi.",
+                        "Jawaban: Semua jawaban A, B, dan C benar \nPenjelasan: Kasus henti jantung banyak terjadi di luar rumah sakit, terutama di rumah. Apabila tidak dilakukan pertolongan dengan segera dapat menyebabkan kematian sehingga pertolongan pertama oleh orang awam sangat penting karena dapat meningkatkan harapan hidup korban henti jantung. ",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -96,6 +96,36 @@ class _QuestionEState extends State<QuestionE> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -185,12 +215,12 @@ class _QuestionEState extends State<QuestionE> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_a/question_b.png'),
+                          Image.asset('assets/images/level_a/question_e.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Cedera yang dialami seseorang dapat memberikan dampak pada orang yang mengalaminya. Oleh sebab itu cedera harus dapat diminimalisir  supaya dampak yang buruk dapat dikurangi. Dampak yang muncul antara lain : Dapat menyebabkan kecacatan, menurunkan produktivitas dalam bekerja dan biaya perawatan rumah sakit yang tinggi.",
+                        "Jawaban: Semua jawaban A, B, dan C benar \nPenjelasan: Kasus henti jantung banyak terjadi di luar rumah sakit, terutama di rumah. Apabila tidak dilakukan pertolongan dengan segera dapat menyebabkan kematian sehingga pertolongan pertama oleh orang awam sangat penting karena dapat meningkatkan harapan hidup korban henti jantung. ",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -199,6 +229,36 @@ class _QuestionEState extends State<QuestionE> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -279,7 +339,7 @@ class _QuestionEState extends State<QuestionE> {
                         Padding(
                           padding: EdgeInsets.only(top: 80),
                           child: Image.asset(
-                              'assets/images/level_a/question_b.png',
+                              'assets/images/level_a/question_e.png',
                               height: 250,
                               fit: BoxFit.contain),
                         )
@@ -322,7 +382,7 @@ class _QuestionEState extends State<QuestionE> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Dampak yang berbahaya saat terkena cedera adalah dibawah ini kecuali...",
+                          "5.	Kenapa korban henting jantung harus dilakukan pertolongan pertama oleh orang awam?",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -342,7 +402,8 @@ class _QuestionEState extends State<QuestionE> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Dapat menyebabkan kecacatan",
+                          "Apabila tidak dilakukan pertolongan dengan segera dapat menyebabkan kematian",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -362,7 +423,8 @@ class _QuestionEState extends State<QuestionE> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Biaya perawatan rumah sakit yang tinggi",
+                          "Kasus henti jantung banyak terjadi di luar rumah sakit",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -382,7 +444,8 @@ class _QuestionEState extends State<QuestionE> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Penurunan produktivitas dalam bekerja",
+                          "Pertolongan pertama oleh orang awam akan meningkatkan harapan hidup korban henti jantung",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -403,7 +466,7 @@ class _QuestionEState extends State<QuestionE> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Membuat orang sedih",
+                          "Semua jawaban A,B, dan C Benar",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,

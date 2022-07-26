@@ -82,12 +82,12 @@ class _QuestionCState extends State<QuestionC> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_a/question_b.png'),
+                          Image.asset('assets/images/level_a/question_c.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Cedera yang dialami seseorang dapat memberikan dampak pada orang yang mengalaminya. Oleh sebab itu cedera harus dapat diminimalisir  supaya dampak yang buruk dapat dikurangi. Dampak yang muncul antara lain : Dapat menyebabkan kecacatan, menurunkan produktivitas dalam bekerja dan biaya perawatan rumah sakit yang tinggi.",
+                        "Jawaban: Kondisi ketika jantung berhenti berdetak secara tiba-tiba akibat gangguan kelistrikan jantung \nHenti jantung terjadi akibat adanya gangguan pada listrik jantung sehingga jantung berhenti memompa darah ke seluruh tubuh. Kondisi ini dapat menyebabkan kerusakan otak secara permanen atau bahkan dapat menyebabkan kematian. Korban henti jantung perlu diberikan pertolongan pertama berupa Resusitasi Jantung Paru (RJP) dan kejut jantungHenti jantung terjadi akibat adanya gangguan pada listrik jantung sehingga jantung berhenti memompa darah ke seluruh tubuh. Kondisi ini dapat menyebabkan kerusakan otak secara permanen atau bahkan dapat menyebabkan kematian. Korban henti jantung perlu diberikan pertolongan pertama berupa Resusitasi Jantung Paru (RJP) dan kejut jantung.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -185,12 +185,12 @@ class _QuestionCState extends State<QuestionC> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_a/question_b.png'),
+                          Image.asset('assets/images/level_a/question_c.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Cedera yang dialami seseorang dapat memberikan dampak pada orang yang mengalaminya. Oleh sebab itu cedera harus dapat diminimalisir  supaya dampak yang buruk dapat dikurangi. Dampak yang muncul antara lain : Dapat menyebabkan kecacatan, menurunkan produktivitas dalam bekerja dan biaya perawatan rumah sakit yang tinggi.",
+                        "Jawaban: Kondisi ketika jantung berhenti berdetak secara tiba-tiba akibat gangguan kelistrikan jantung \nHenti jantung terjadi akibat adanya gangguan pada listrik jantung sehingga jantung berhenti memompa darah ke seluruh tubuh. Kondisi ini dapat menyebabkan kerusakan otak secara permanen atau bahkan dapat menyebabkan kematian. Korban henti jantung perlu diberikan pertolongan pertama berupa Resusitasi Jantung Paru (RJP) dan kejut jantungHenti jantung terjadi akibat adanya gangguan pada listrik jantung sehingga jantung berhenti memompa darah ke seluruh tubuh. Kondisi ini dapat menyebabkan kerusakan otak secara permanen atau bahkan dapat menyebabkan kematian. Korban henti jantung perlu diberikan pertolongan pertama berupa Resusitasi Jantung Paru (RJP) dan kejut jantung.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -279,7 +279,7 @@ class _QuestionCState extends State<QuestionC> {
                         Padding(
                           padding: EdgeInsets.only(top: 80),
                           child: Image.asset(
-                              'assets/images/level_a/question_b.png',
+                              'assets/images/level_a/question_c.png',
                               height: 250,
                               fit: BoxFit.contain),
                         )
@@ -322,7 +322,7 @@ class _QuestionCState extends State<QuestionC> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Dampak yang berbahaya saat terkena cedera adalah dibawah ini kecuali...",
+                          "3.	Apakah yang di maksud dengan henti jantung / cardiac arrest?",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -338,72 +338,74 @@ class _QuestionCState extends State<QuestionC> {
                       padding: EdgeInsets.only(top: 10, left: 10),
                       child: ButtonGeneralSecondary(
                         onPress: () {
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Dapat menyebabkan kecacatan",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Biaya perawatan rumah sakit yang tinggi",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Penurunan produktivitas dalam bekerja",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
                           helperFunction.savePointSpesificLevel("1", 5);
                           showDialogCorrect(context, size);
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Membuat orang sedih",
+                          "Kondisi ketika jantung berhenti berdetak secara tiba-tiba akibat gangguan kelistrikan jantung",
+                          textAlign: TextAlign.center,
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Kondisi ketika arteri koroner atau pembuluh darah jantung tersumbat oleh timbunan lemak",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "kondisi yang terjadi ketika persediaan darah ke otak terganggu atau berkurang akibat penyumbatan atau pecahnya pembuluh darah di otak.",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Kelainan pada tubuh yang memicu nyeri, panas, merah, bengkak.",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,

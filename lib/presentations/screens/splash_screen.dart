@@ -73,12 +73,12 @@ class _IntroScreenState extends State<SplashScreen> {
                   child: Align(
                     alignment: Alignment.center,
                     child: Text(
-                      "Education First Game",
+                      "Game Carre (Cardiac Arrest)",
                       textAlign: TextAlign.center,
                       style: GoogleFonts.rubik(
                         textStyle: TextStyle(
                           fontWeight: FontWeight.w500,
-                          color: colorBlackSecondary,
+                          color: colorWhite,
                           fontSize: 26,
                         ),
                       ),

@@ -82,12 +82,12 @@ class _QuestionFState extends State<QuestionF> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_a/question_b.png'),
+                          Image.asset('assets/images/level_a/question_f.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Cedera yang dialami seseorang dapat memberikan dampak pada orang yang mengalaminya. Oleh sebab itu cedera harus dapat diminimalisir  supaya dampak yang buruk dapat dikurangi. Dampak yang muncul antara lain : Dapat menyebabkan kecacatan, menurunkan produktivitas dalam bekerja dan biaya perawatan rumah sakit yang tinggi.",
+                        "Jawaban: Rangkaian tindakan dimana seseorang melakukan pijat jantung dan nafas buatan untuk menolong korban henti jantung.\nPenjelasan: Resusitasi Jantung Paru (RJP) adalah pertolongan pertama pada orang yang mengalami henti napas dan henti jantung karena berbagai alasan, seperti serangan jantung, kecelakaan, atau tenggelam. Tindakan ini perlu dilakukan secara cepat dan tepat sebagai langkah awal menyelamatkan nyawa seseorang. Teknik RJP pada korban dewasa adalah kompresi / tekanan pada jantung 30 kali dan bantuan napas 2 kali sesegera mungkin, dengan interupsi seminimal mungkin.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -185,12 +185,12 @@ class _QuestionFState extends State<QuestionF> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_a/question_b.png'),
+                          Image.asset('assets/images/level_a/question_f.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Cedera yang dialami seseorang dapat memberikan dampak pada orang yang mengalaminya. Oleh sebab itu cedera harus dapat diminimalisir  supaya dampak yang buruk dapat dikurangi. Dampak yang muncul antara lain : Dapat menyebabkan kecacatan, menurunkan produktivitas dalam bekerja dan biaya perawatan rumah sakit yang tinggi.",
+                        "Jawaban: Rangkaian tindakan dimana seseorang melakukan pijat jantung dan nafas buatan untuk menolong korban henti jantung.\nPenjelasan: Resusitasi Jantung Paru (RJP) adalah pertolongan pertama pada orang yang mengalami henti napas dan henti jantung karena berbagai alasan, seperti serangan jantung, kecelakaan, atau tenggelam. Tindakan ini perlu dilakukan secara cepat dan tepat sebagai langkah awal menyelamatkan nyawa seseorang. Teknik RJP pada korban dewasa adalah kompresi / tekanan pada jantung 30 kali dan bantuan napas 2 kali sesegera mungkin, dengan interupsi seminimal mungkin.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -279,7 +279,7 @@ class _QuestionFState extends State<QuestionF> {
                         Padding(
                           padding: EdgeInsets.only(top: 80),
                           child: Image.asset(
-                              'assets/images/level_a/question_b.png',
+                              'assets/images/level_a/question_f.png',
                               height: 250,
                               fit: BoxFit.contain),
                         )
@@ -322,7 +322,7 @@ class _QuestionFState extends State<QuestionF> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Dampak yang berbahaya saat terkena cedera adalah dibawah ini kecuali...",
+                          "6.	Apa yang anda ketahui tentang Resusitasi Jantung Paru (RJP):",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -342,47 +342,8 @@ class _QuestionFState extends State<QuestionF> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Dapat menyebabkan kecacatan",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Biaya perawatan rumah sakit yang tinggi",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Penurunan produktivitas dalam bekerja",
+                          "Rangkaian tindakan dimana seseorang melakukan P3K sebagai upaya untuk menolong korban yang kecelakaan",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -403,7 +364,50 @@ class _QuestionFState extends State<QuestionF> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Membuat orang sedih",
+                          "Rangkaian tindakan dimana seseorang melakukan pijat jantung dan nafas buatan untuk menolong korban henti jantung",
+                          textAlign: TextAlign.center,
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Rangkaian tindakan dimana seseorang menolong korban yang tiba-tiba pingsan seperti memberikan minyak angin",
+                          textAlign: TextAlign.center,
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Rangkaian tindakan dimana seseorang menolong korban yang mengalami masalah kesehatan.",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,

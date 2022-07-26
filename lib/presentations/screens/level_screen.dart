@@ -603,7 +603,7 @@ class _LevelsScreenState extends State<LevelsScreen> {
                   style: GoogleFonts.rubik(
                     textStyle: TextStyle(
                       fontWeight: FontWeight.w700,
-                      color: colorBlackSecondary,
+                      color: colorWhite,
                       fontSize: 14,
                     ),
                   ),

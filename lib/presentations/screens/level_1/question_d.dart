@@ -82,12 +82,12 @@ class _QuestionDState extends State<QuestionD> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_a/question_b.png'),
+                          Image.asset('assets/images/level_a/question_d.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Cedera yang dialami seseorang dapat memberikan dampak pada orang yang mengalaminya. Oleh sebab itu cedera harus dapat diminimalisir  supaya dampak yang buruk dapat dikurangi. Dampak yang muncul antara lain : Dapat menyebabkan kecacatan, menurunkan produktivitas dalam bekerja dan biaya perawatan rumah sakit yang tinggi.",
+                        "Jawaban: Tidak sadarkan diri, nadi Carotis tidak teraba, dan tidak bernafas\n Tanda- tanda henti jantung menurut American Heart Association (AHA) yaitu:\n1) Tidak ada respon / tidak sadarkan diri; korban tidak berespon terhadap rangsangan suara, tepukan di pundak ataupun cubitan\n2) Tidak ada napas / ketiadaan pernapasan normal; tidak terdapat pernapasan normal ketika jalan napas dibuka.\n3) Tidak teraba denyut nadi di arteri besar seperti karotis (denyut di leher), femoralis (denyut di paha), radialis (denyut di atas pergelangan tangan).",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -185,12 +185,12 @@ class _QuestionDState extends State<QuestionD> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_a/question_b.png'),
+                          Image.asset('assets/images/level_a/question_d.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Cedera yang dialami seseorang dapat memberikan dampak pada orang yang mengalaminya. Oleh sebab itu cedera harus dapat diminimalisir  supaya dampak yang buruk dapat dikurangi. Dampak yang muncul antara lain : Dapat menyebabkan kecacatan, menurunkan produktivitas dalam bekerja dan biaya perawatan rumah sakit yang tinggi.",
+                        "Jawaban: Tidak sadarkan diri, nadi Carotis tidak teraba, dan tidak bernafas\n Tanda- tanda henti jantung menurut American Heart Association (AHA) yaitu:\n1) Tidak ada respon / tidak sadarkan diri; korban tidak berespon terhadap rangsangan suara, tepukan di pundak ataupun cubitan\n2) Tidak ada napas / ketiadaan pernapasan normal; tidak terdapat pernapasan normal ketika jalan napas dibuka.\n3) Tidak teraba denyut nadi di arteri besar seperti karotis (denyut di leher), femoralis (denyut di paha), radialis (denyut di atas pergelangan tangan).",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -279,7 +279,7 @@ class _QuestionDState extends State<QuestionD> {
                         Padding(
                           padding: EdgeInsets.only(top: 80),
                           child: Image.asset(
-                              'assets/images/level_a/question_b.png',
+                              'assets/images/level_a/question_d.png',
                               height: 250,
                               fit: BoxFit.contain),
                         )
@@ -322,7 +322,7 @@ class _QuestionDState extends State<QuestionD> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Dampak yang berbahaya saat terkena cedera adalah dibawah ini kecuali...",
+                          "4.	Bagaimana tanda-tanda orang yang mengalami henti jantung / cardiac arrest?",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -342,7 +342,7 @@ class _QuestionDState extends State<QuestionD> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Dapat menyebabkan kecacatan",
+                          "Tidak sadarkan diri",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -362,7 +362,7 @@ class _QuestionDState extends State<QuestionD> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Biaya perawatan rumah sakit yang tinggi",
+                          "Denyut nadi karotis tidak teraba",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -382,7 +382,7 @@ class _QuestionDState extends State<QuestionD> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Penurunan produktivitas dalam bekerja",
+                          "Tidak ada napas ",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -403,7 +403,8 @@ class _QuestionDState extends State<QuestionD> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Membuat orang sedih",
+                          "Tidak sadarkan diri, Denyut nadi karotis tidak teraba, dan Tidak ada napas ",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,

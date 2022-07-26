@@ -87,7 +87,7 @@ class _QuestionBState extends State<QuestionB> {
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Cedera yang dialami seseorang dapat memberikan dampak pada orang yang mengalaminya. Oleh sebab itu cedera harus dapat diminimalisir  supaya dampak yang buruk dapat dikurangi. Dampak yang muncul antara lain : Dapat menyebabkan kecacatan, menurunkan produktivitas dalam bekerja dan biaya perawatan rumah sakit yang tinggi.",
+                        "Jawaban: Jantung \nPenjelasan: Gambar di atas adalah organ jantung yang berada pada dada sebelah kiri dari tubuh kita. Jantung adalah organ vital yang berfungsi sebagai pemompa darah untuk memenuhi kebutuhan oksigen dan nutrisi ke seluruh tubuh.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -190,7 +190,7 @@ class _QuestionBState extends State<QuestionB> {
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Cedera yang dialami seseorang dapat memberikan dampak pada orang yang mengalaminya. Oleh sebab itu cedera harus dapat diminimalisir  supaya dampak yang buruk dapat dikurangi. Dampak yang muncul antara lain : Dapat menyebabkan kecacatan, menurunkan produktivitas dalam bekerja dan biaya perawatan rumah sakit yang tinggi.",
+                        "Jawaban: Jantung \nPenjelasan: Gambar di atas adalah organ jantung yang berada pada dada sebelah kiri dari tubuh kita. Jantung adalah organ vital yang berfungsi sebagai pemompa darah untuk memenuhi kebutuhan oksigen dan nutrisi ke seluruh tubuh.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -322,7 +322,7 @@ class _QuestionBState extends State<QuestionB> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Dampak yang berbahaya saat terkena cedera adalah dibawah ini kecuali...",
+                          "2.	Disebut apakah organ tubuh yang dipegang pada gambar tersebut?",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -342,47 +342,7 @@ class _QuestionBState extends State<QuestionB> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Dapat menyebabkan kecacatan",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Biaya perawatan rumah sakit yang tinggi",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Penurunan produktivitas dalam bekerja",
+                          "Paru-paru",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -403,7 +363,47 @@ class _QuestionBState extends State<QuestionB> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Membuat orang sedih",
+                          "Jantung",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Otak",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Lambung",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
