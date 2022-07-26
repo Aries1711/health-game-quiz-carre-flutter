@@ -31,7 +31,7 @@ class _QuestionATwoState extends State<QuestionATwo> {
     // Uri surveyUrlPatch = Uri(
     //     scheme: 'https', host: 'www.youtube.com', path: '/watch?v=odjUjKzVDXo');
     Uri surveyUrlPatch =
-        Uri.parse('https://www.youtube.com/watch?v=odjUjKzVDXo');
+        Uri.parse('https://www.youtube.com/watch?v=-Yqk5cHXsko&t=3s');
     helperFunction.launchUrlExternal(surveyUrlPatch);
   }
 
@@ -90,7 +90,7 @@ class _QuestionATwoState extends State<QuestionATwo> {
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Luka adalah kenis cedera yang sering ditemukan. Luka dibagi menjadi dua jenis yaitu : luka tertutup dan luka terbuka. Luka tertutup merupakan kondisi luka dimana kulit tetap dalam keadaan utuh dan jaringan bawahnya tidak langsung terkena dunia luar",
+                        "Jawaban:Perlu \nTindakan awal yang harus dilakukan sebelum memberikan pertongan pertama pada korban henti jantung adalah memastikan lingkungan sekitar aman. Aman untuk korban maupun penolong dari kendaraan bermotor, aman dari kebakaran, ataupun hal lain. Kemudian penolong mengecek kesadaran, jika korban tidak sadarkan diri dilanjutkan dengan menghubungi pelayanan kesehatan terdekat / ambulans untuk membawa AED / alat kejut jantung. Kemudian dilanjutkan mengecek nadi dan pernafasan.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -99,6 +99,36 @@ class _QuestionATwoState extends State<QuestionATwo> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -193,7 +223,7 @@ class _QuestionATwoState extends State<QuestionATwo> {
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Luka adalah kenis cedera yang sering ditemukan. Luka dibagi menjadi dua jenis yaitu : luka tertutup dan luka terbuka. Luka tertutup merupakan kondisi luka dimana kulit tetap dalam keadaan utuh dan jaringan bawahnya tidak langsung terkena dunia luar",
+                        "Jawaban:Perlu \nTindakan awal yang harus dilakukan sebelum memberikan pertongan pertama pada korban henti jantung adalah memastikan lingkungan sekitar aman. Aman untuk korban maupun penolong dari kendaraan bermotor, aman dari kebakaran, ataupun hal lain. Kemudian penolong mengecek kesadaran, jika korban tidak sadarkan diri dilanjutkan dengan menghubungi pelayanan kesehatan terdekat / ambulans untuk membawa AED / alat kejut jantung. Kemudian dilanjutkan mengecek nadi dan pernafasan.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -202,6 +232,36 @@ class _QuestionATwoState extends State<QuestionATwo> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -296,7 +356,7 @@ class _QuestionATwoState extends State<QuestionATwo> {
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Luka adalah kenis cedera yang sering ditemukan. Luka dibagi menjadi dua jenis yaitu : luka tertutup dan luka terbuka. Luka tertutup merupakan kondisi luka dimana kulit tetap dalam keadaan utuh dan jaringan bawahnya tidak langsung terkena dunia luar",
+                        "Jawaban:Perlu \nTindakan awal yang harus dilakukan sebelum memberikan pertongan pertama pada korban henti jantung adalah memastikan lingkungan sekitar aman. Aman untuk korban maupun penolong dari kendaraan bermotor, aman dari kebakaran, ataupun hal lain. Kemudian penolong mengecek kesadaran, jika korban tidak sadarkan diri dilanjutkan dengan menghubungi pelayanan kesehatan terdekat / ambulans untuk membawa AED / alat kejut jantung. Kemudian dilanjutkan mengecek nadi dan pernafasan.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -305,6 +365,36 @@ class _QuestionATwoState extends State<QuestionATwo> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -450,7 +540,7 @@ class _QuestionATwoState extends State<QuestionATwo> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Luka seperti gambar di atas disebut?",
+                          "1.	Perlukah kita mengecek keamanan lingkungan dan menyatakan bahwa lingkungan sekitar aman saat pertama kali menemukan korban henti jantung dan sebelum memberikan pertolongan RJP?",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -474,7 +564,7 @@ class _QuestionATwoState extends State<QuestionATwo> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Luka tertutup",
+                          "Perlu",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -497,7 +587,7 @@ class _QuestionATwoState extends State<QuestionATwo> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Luka terbuka",
+                          "Tidak Perlu",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -520,7 +610,30 @@ class _QuestionATwoState extends State<QuestionATwo> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Luka bakar",
+                          "Kadang-kadang",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Tidak boleh",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,

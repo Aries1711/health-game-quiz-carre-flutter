@@ -84,12 +84,12 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_b/question_b.png'),
+                          Image.asset('assets/images/level_b/answer_g_two.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Luka adalah kenis cedera yang sering ditemukan. Luka dibagi menjadi dua jenis yaitu : luka tertutup dan luka terbuka. Luka terbuka merupakan merupakan kondisi kulit yang terbuka sehingga jaringan di bawahnya terkena lingkungan luar dan rentan mengalami pedarahan serta infeksi",
+                        "Jawaban: Setengah bagian bawah dari sternum(tulang dada/taju pedang)\nKompresi dada dilakukan dengan meletakkan salah satu telapak tangan di bagian tengah dada korban dan tangan lainnya di atas tangan pertama. Lokasi penekanan adalah pada tulang sternum sepertiga bagian bawah dengan tujuan memompa jantung dari luar sehingga aliran darah terbentuk dan dapat mengalirkan oksigen ke otak dan jaringan tubuh.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -180,12 +180,12 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_b/question_b.png'),
+                          Image.asset('assets/images/level_b/answer_g_two.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Luka adalah kenis cedera yang sering ditemukan. Luka dibagi menjadi dua jenis yaitu : luka tertutup dan luka terbuka. Luka terbuka merupakan merupakan kondisi kulit yang terbuka sehingga jaringan di bawahnya terkena lingkungan luar dan rentan mengalami pedarahan serta infeksi",
+                        "Jawaban: Setengah bagian bawah dari sternum(tulang dada/taju pedang)\nKompresi dada dilakukan dengan meletakkan salah satu telapak tangan di bagian tengah dada korban dan tangan lainnya di atas tangan pertama. Lokasi penekanan adalah pada tulang sternum sepertiga bagian bawah dengan tujuan memompa jantung dari luar sehingga aliran darah terbentuk dan dapat mengalirkan oksigen ke otak dan jaringan tubuh.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -200,7 +200,7 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                       padding: const EdgeInsets.all(20),
                       child: ButtonGeneralSecondary(
                         onPress: () {
-                          Navigator.of(context).pushNamed('/level_a/finish');
+                          Navigator.of(context).pushNamed('/level_b/finish');
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
@@ -276,12 +276,12 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_b/question_b.png'),
+                          Image.asset('assets/images/level_b/answer_g_two.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Luka adalah kenis cedera yang sering ditemukan. Luka dibagi menjadi dua jenis yaitu : luka tertutup dan luka terbuka. Luka terbuka merupakan merupakan kondisi kulit yang terbuka sehingga jaringan di bawahnya terkena lingkungan luar dan rentan mengalami pedarahan serta infeksi",
+                        "Jawaban: Setengah bagian bawah dari sternum(tulang dada/taju pedang)\nKompresi dada dilakukan dengan meletakkan salah satu telapak tangan di bagian tengah dada korban dan tangan lainnya di atas tangan pertama. Lokasi penekanan adalah pada tulang sternum sepertiga bagian bawah dengan tujuan memompa jantung dari luar sehingga aliran darah terbentuk dan dapat mengalirkan oksigen ke otak dan jaringan tubuh.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -363,7 +363,7 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                         Padding(
                           padding: EdgeInsets.only(top: 80),
                           child: Image.asset(
-                              'assets/images/level_b/question_b.png',
+                              'assets/images/level_b/question_g.png',
                               height: 250,
                               fit: BoxFit.contain),
                         )
@@ -430,7 +430,7 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Luka seperti gambar di atas disebut?",
+                          "7. Titik kompresi/Landmark tumit tangan yang tepat saat melakukan tindakan kompresi dada pada RJP orang dewasa yaitu:",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -453,7 +453,7 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Luka tertutup",
+                          "Dada sebelah kiri dari sternum (tulang dada/taju pedang)",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -477,7 +477,7 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Luka terbuka",
+                          "Setengah bagian bawah dari sternum	 (tulang dada/taju pedang)",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -500,7 +500,30 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Luka robek",
+                          "Setengah bagian atas dari sternum (tulang dada/taju pedang)",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Dada sebelah kanan dari sternum (tulang dada/taju pedang)",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,

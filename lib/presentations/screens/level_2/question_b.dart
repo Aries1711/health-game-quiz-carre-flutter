@@ -6,6 +6,7 @@ import 'package:flutter_countdown_timer/flutter_countdown_timer.dart';
 import 'package:game_health_efa/constant/colors.dart';
 import 'package:game_health_efa/logic/function/global_preferences.dart';
 import 'package:game_health_efa/logic/function/helper.dart';
+import 'package:game_health_efa/presentations/screens/level_2/question_c.dart';
 import 'package:game_health_efa/presentations/widgets/button_general_seconday.dart';
 import 'package:game_health_efa/presentations/widgets/card_player.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -30,7 +31,7 @@ class _QuestionBTwoState extends State<QuestionBTwo> {
     // Uri surveyUrlPatch = Uri(
     //     scheme: 'https', host: 'www.youtube.com', path: '/watch?v=odjUjKzVDXo');
     Uri surveyUrlPatch =
-        Uri.parse('https://www.youtube.com/watch?v=odjUjKzVDXo');
+        Uri.parse('https://www.youtube.com/watch?v=-Yqk5cHXsko&t=3s');
     helperFunction.launchUrlExternal(surveyUrlPatch);
   }
 
@@ -89,7 +90,7 @@ class _QuestionBTwoState extends State<QuestionBTwo> {
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Luka adalah kenis cedera yang sering ditemukan. Luka dibagi menjadi dua jenis yaitu : luka tertutup dan luka terbuka. Luka terbuka merupakan merupakan kondisi kulit yang terbuka sehingga jaringan di bawahnya terkena lingkungan luar dan rentan mengalami pedarahan serta infeksi",
+                        "Jawaban: Mengecek kesadaran\nCek respon atau kesadaran dilakukan saat penolong sudah memastikan bahwa kondisi sekitar aman. Penilaian tingkat kesadaran korban dapat dilakukan dalam empat tahap. Pertama, cek apakah korban sadar? Apakah korban merespon dengan panggilan suara? Apakah korban merespon apabila ada pemberian rasa sakit, seperti ditepuk pundaknya. Jika tidak memberikan respon, mintalah seseorang untuk menghubungi ambulans, mengambil P3k dan Defibrilator Eksternal Otomatis (AED) / alat kejut jantung.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -101,10 +102,47 @@ class _QuestionBTwoState extends State<QuestionBTwo> {
                       ),
                     ),
                     Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
                       padding: const EdgeInsets.all(20),
                       child: ButtonGeneralSecondary(
                         onPress: () {
-                          Navigator.of(context).pushNamed('/level_b/finish');
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => QuestionCTwo(
+                                title: 'number 2',
+                              ),
+                            ),
+                          );
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
@@ -185,7 +223,7 @@ class _QuestionBTwoState extends State<QuestionBTwo> {
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Luka adalah kenis cedera yang sering ditemukan. Luka dibagi menjadi dua jenis yaitu : luka tertutup dan luka terbuka. Luka terbuka merupakan merupakan kondisi kulit yang terbuka sehingga jaringan di bawahnya terkena lingkungan luar dan rentan mengalami pedarahan serta infeksi",
+                        "Jawaban: Mengecek kesadaran\nCek respon atau kesadaran dilakukan saat penolong sudah memastikan bahwa kondisi sekitar aman. Penilaian tingkat kesadaran korban dapat dilakukan dalam empat tahap. Pertama, cek apakah korban sadar? Apakah korban merespon dengan panggilan suara? Apakah korban merespon apabila ada pemberian rasa sakit, seperti ditepuk pundaknya. Jika tidak memberikan respon, mintalah seseorang untuk menghubungi ambulans, mengambil P3k dan Defibrilator Eksternal Otomatis (AED) / alat kejut jantung.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -197,10 +235,47 @@ class _QuestionBTwoState extends State<QuestionBTwo> {
                       ),
                     ),
                     Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
                       padding: const EdgeInsets.all(20),
                       child: ButtonGeneralSecondary(
                         onPress: () {
-                          Navigator.of(context).pushNamed('/level_a/finish');
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => QuestionCTwo(
+                                title: 'number 2',
+                              ),
+                            ),
+                          );
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
@@ -281,7 +356,7 @@ class _QuestionBTwoState extends State<QuestionBTwo> {
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Luka adalah kenis cedera yang sering ditemukan. Luka dibagi menjadi dua jenis yaitu : luka tertutup dan luka terbuka. Luka terbuka merupakan merupakan kondisi kulit yang terbuka sehingga jaringan di bawahnya terkena lingkungan luar dan rentan mengalami pedarahan serta infeksi",
+                        "Jawaban: Mengecek kesadaran\nCek respon atau kesadaran dilakukan saat penolong sudah memastikan bahwa kondisi sekitar aman. Penilaian tingkat kesadaran korban dapat dilakukan dalam empat tahap. Pertama, cek apakah korban sadar? Apakah korban merespon dengan panggilan suara? Apakah korban merespon apabila ada pemberian rasa sakit, seperti ditepuk pundaknya. Jika tidak memberikan respon, mintalah seseorang untuk menghubungi ambulans, mengambil P3k dan Defibrilator Eksternal Otomatis (AED) / alat kejut jantung.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -293,10 +368,47 @@ class _QuestionBTwoState extends State<QuestionBTwo> {
                       ),
                     ),
                     Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
                       padding: const EdgeInsets.all(20),
                       child: ButtonGeneralSecondary(
                         onPress: () {
-                          Navigator.of(context).pushNamed('/level_b/finish');
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => QuestionCTwo(
+                                title: 'number 2',
+                              ),
+                            ),
+                          );
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
@@ -430,7 +542,7 @@ class _QuestionBTwoState extends State<QuestionBTwo> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Luka seperti gambar di atas disebut?",
+                          "2.	Tindakan yang dilakukan dengan cara menepukkan kedua tangan pada kedua pundak korban dan memanggil korban “bapak…bapak…” atau “ibu … ibu…” adalah",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -449,35 +561,12 @@ class _QuestionBTwoState extends State<QuestionBTwo> {
                           setState(() {
                             answered = true;
                           });
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Luka tertutup",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
-                          setState(() {
-                            answered = true;
-                          });
                           helperFunction.savePointSpesificLevel("2", 5);
                           showDialogCorrect(context, size);
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Luka terbuka",
+                          "Mengecek kesadaran",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -500,7 +589,53 @@ class _QuestionBTwoState extends State<QuestionBTwo> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Luka robek",
+                          "Mengecek nadi karotis/ mengecek denyut nadi di leher",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Mengecek pernafasan",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Memanggil petugas ambulans",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,

@@ -6,7 +6,6 @@ import 'package:flutter_countdown_timer/flutter_countdown_timer.dart';
 import 'package:game_health_efa/constant/colors.dart';
 import 'package:game_health_efa/logic/function/global_preferences.dart';
 import 'package:game_health_efa/logic/function/helper.dart';
-import 'package:game_health_efa/presentations/screens/level_2/question_b.dart';
 import 'package:game_health_efa/presentations/screens/level_3/question_b.dart';
 import 'package:game_health_efa/presentations/widgets/button_general_seconday.dart';
 import 'package:game_health_efa/presentations/widgets/card_player.dart';
