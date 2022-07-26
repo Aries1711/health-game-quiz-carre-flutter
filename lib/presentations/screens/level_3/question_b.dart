@@ -32,7 +32,7 @@ class _QuestionBThreeState extends State<QuestionBThree> {
     // Uri surveyUrlPatch = Uri(
     //     scheme: 'https', host: 'www.youtube.com', path: '/watch?v=odjUjKzVDXo');
     Uri surveyUrlPatch =
-        Uri.parse('https://www.youtube.com/watch?v=odjUjKzVDXo');
+        Uri.parse('https://www.youtube.com/watch?v=yBfpSnAHX9Q');
     helperFunction.launchUrlExternal(surveyUrlPatch);
   }
 
@@ -91,7 +91,7 @@ class _QuestionBThreeState extends State<QuestionBThree> {
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: Semua jawaban A, B, dan C benar\nKualitas RJP\n1)	Tekan kuat (minimum kedalaman 5 cm) dan cepat (100-120/menit) dan biarkan rekoil dada (pengembangan dada) selesai.\n2)	Minimalisir interupsi dalam kompresi.\n3)	Hindari ventilasi berlebihan.\n4)	Ganti kompresi setiap 2 menit, atau lebih awal jika penolong sudah kelelahan.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -100,6 +100,36 @@ class _QuestionBThreeState extends State<QuestionBThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -194,7 +224,7 @@ class _QuestionBThreeState extends State<QuestionBThree> {
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: Semua jawaban A, B, dan C benar\nKualitas RJP\n1)	Tekan kuat (minimum kedalaman 5 cm) dan cepat (100-120/menit) dan biarkan rekoil dada (pengembangan dada) selesai.\n2)	Minimalisir interupsi dalam kompresi.\n3)	Hindari ventilasi berlebihan.\n4)	Ganti kompresi setiap 2 menit, atau lebih awal jika penolong sudah kelelahan.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -203,6 +233,36 @@ class _QuestionBThreeState extends State<QuestionBThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -297,7 +357,7 @@ class _QuestionBThreeState extends State<QuestionBThree> {
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: Semua jawaban A, B, dan C benar\nKualitas RJP\n1)	Tekan kuat (minimum kedalaman 5 cm) dan cepat (100-120/menit) dan biarkan rekoil dada (pengembangan dada) selesai.\n2)	Minimalisir interupsi dalam kompresi.\n3)	Hindari ventilasi berlebihan.\n4)	Ganti kompresi setiap 2 menit, atau lebih awal jika penolong sudah kelelahan.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -306,6 +366,36 @@ class _QuestionBThreeState extends State<QuestionBThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -453,7 +543,7 @@ class _QuestionBThreeState extends State<QuestionBThree> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Cedera yang berhubungan dengan tulang, otot dan sendi mayoritas terjadi akibat?",
+                          "2.	Bagaimana cara melakukan kompresi dada atau pijat jantung yang berkualitas tinggi?",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -472,60 +562,84 @@ class _QuestionBThreeState extends State<QuestionBThree> {
                           setState(() {
                             answered = true;
                           });
+                          helperFunction.savePointSpesificLevel("3", -1);
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Melakukan kompresi dada dengan kuat dan cepat",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
+                          helperFunction.savePointSpesificLevel("3", -1);
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Minimalkan berbicara dan jangan sampai menghentikan kompresi dada",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
+                          helperFunction.savePointSpesificLevel("3", -1);
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Bergantian yang melakukan kompresi dada setiap 2 menit sekali",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
                           helperFunction.savePointSpesificLevel("3", 5);
                           showDialogCorrect(context, size);
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Olahraga/aktivitas tinggi",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
-                          setState(() {
-                            answered = true;
-                          });
-                          helperFunction.savePointSpesificLevel("3", -1);
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Bekerja",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
-                          setState(() {
-                            answered = true;
-                          });
-                          helperFunction.savePointSpesificLevel("3", -1);
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Aktivitas sehari-hari",
+                          "Semua jawaban A,B, dan C Benar",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,

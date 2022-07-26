@@ -6,7 +6,6 @@ import 'package:flutter_countdown_timer/flutter_countdown_timer.dart';
 import 'package:game_health_efa/constant/colors.dart';
 import 'package:game_health_efa/logic/function/global_preferences.dart';
 import 'package:game_health_efa/logic/function/helper.dart';
-import 'package:game_health_efa/presentations/screens/level_2/question_b.dart';
 import 'package:game_health_efa/presentations/widgets/button_general_seconday.dart';
 import 'package:game_health_efa/presentations/widgets/card_player.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -85,12 +84,12 @@ class _QuestionGThreeState extends State<QuestionGThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_g.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: Memberikan kompresi dada\n70 % dari henti jantung terjadi di luar rumah sakit atau di rumah. RJP yang dilakukan dengan kompresi dada saja  oleh orang awam terbukti sama efektifnya dengan RJP yang dilakukan dengan memberikan kompresi dada dan napas buatan dalam beberapa menit pertama selama henti jantung yang terjadi di luar rumah sakit untuk korban dewasa.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -181,12 +180,12 @@ class _QuestionGThreeState extends State<QuestionGThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_g.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: Memberikan kompresi dada\n70 % dari henti jantung terjadi di luar rumah sakit atau di rumah. RJP yang dilakukan dengan kompresi dada saja  oleh orang awam terbukti sama efektifnya dengan RJP yang dilakukan dengan memberikan kompresi dada dan napas buatan dalam beberapa menit pertama selama henti jantung yang terjadi di luar rumah sakit untuk korban dewasa.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -277,12 +276,12 @@ class _QuestionGThreeState extends State<QuestionGThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_g.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: Memberikan kompresi dada\n70 % dari henti jantung terjadi di luar rumah sakit atau di rumah. RJP yang dilakukan dengan kompresi dada saja  oleh orang awam terbukti sama efektifnya dengan RJP yang dilakukan dengan memberikan kompresi dada dan napas buatan dalam beberapa menit pertama selama henti jantung yang terjadi di luar rumah sakit untuk korban dewasa.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -364,7 +363,7 @@ class _QuestionGThreeState extends State<QuestionGThree> {
                         Padding(
                           padding: EdgeInsets.only(top: 80),
                           child: Image.asset(
-                              'assets/images/level_c/question_b.png',
+                              'assets/images/level_c/question_g.png',
                               height: 250,
                               fit: BoxFit.contain),
                         )
@@ -431,7 +430,7 @@ class _QuestionGThreeState extends State<QuestionGThree> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Cedera yang berhubungan dengan tulang, otot dan sendi mayoritas terjadi akibat?",
+                          "7.	Saat anda akan memberikan pertolongan pertama pada korban henti jantung, namun anda belum pernah mendapatkan pelatihan. Maka pertolongan yang dapat anda berikan adalah",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -455,7 +454,8 @@ class _QuestionGThreeState extends State<QuestionGThree> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Olahraga/aktivitas tinggi",
+                          "Memberikan kompresi dada",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -479,7 +479,8 @@ class _QuestionGThreeState extends State<QuestionGThree> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Bekerja",
+                          "Memberikan kompresi dada 30 kali dan memberikan 2 bantuan nafas",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -503,7 +504,33 @@ class _QuestionGThreeState extends State<QuestionGThree> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Aktivitas sehari-hari",
+                          "memberikan 2 bantuan nafas ",
+                          textAlign: TextAlign.center,
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
+                          helperFunction.savePointSpesificLevel("3", -1);
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Memberikan kompresi dada 15 kali dan memberikan 2 bantuan nafas",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,

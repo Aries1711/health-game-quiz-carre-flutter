@@ -31,7 +31,7 @@ class _QuestionFThreeState extends State<QuestionFThree> {
     // Uri surveyUrlPatch = Uri(
     //     scheme: 'https', host: 'www.youtube.com', path: '/watch?v=odjUjKzVDXo');
     Uri surveyUrlPatch =
-        Uri.parse('https://www.youtube.com/watch?v=odjUjKzVDXo');
+        Uri.parse('https://www.youtube.com/watch?v=DUaxt8OlT3o');
     helperFunction.launchUrlExternal(surveyUrlPatch);
   }
 
@@ -85,12 +85,12 @@ class _QuestionFThreeState extends State<QuestionFThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_f.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: 100-120 x/menit\nKompresi harus dilakukan dengan baik, yaitu dengan kecepatan 100‒120 kali/menit, kedalaman minimal 5 cm dan maksimal 6 cm, serta pastikan dada recoil. Kecepatan yang melebihi 120 kali/menit menunjukkan kembalinya dada mengembang tidak sempurna sehingga aliran darah ke otak tidak maksimal.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -99,6 +99,36 @@ class _QuestionFThreeState extends State<QuestionFThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -188,12 +218,12 @@ class _QuestionFThreeState extends State<QuestionFThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_f.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: 100-120 x/menit\nKompresi harus dilakukan dengan baik, yaitu dengan kecepatan 100‒120 kali/menit, kedalaman minimal 5 cm dan maksimal 6 cm, serta pastikan dada recoil. Kecepatan yang melebihi 120 kali/menit menunjukkan kembalinya dada mengembang tidak sempurna sehingga aliran darah ke otak tidak maksimal.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -202,6 +232,36 @@ class _QuestionFThreeState extends State<QuestionFThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -291,12 +351,12 @@ class _QuestionFThreeState extends State<QuestionFThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_f.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: 100-120 x/menit\nKompresi harus dilakukan dengan baik, yaitu dengan kecepatan 100‒120 kali/menit, kedalaman minimal 5 cm dan maksimal 6 cm, serta pastikan dada recoil. Kecepatan yang melebihi 120 kali/menit menunjukkan kembalinya dada mengembang tidak sempurna sehingga aliran darah ke otak tidak maksimal.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -305,6 +365,36 @@ class _QuestionFThreeState extends State<QuestionFThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -385,7 +475,7 @@ class _QuestionFThreeState extends State<QuestionFThree> {
                         Padding(
                           padding: EdgeInsets.only(top: 80),
                           child: Image.asset(
-                              'assets/images/level_c/question_b.png',
+                              'assets/images/level_c/question_f.png',
                               height: 250,
                               fit: BoxFit.contain),
                         )
@@ -452,7 +542,7 @@ class _QuestionFThreeState extends State<QuestionFThree> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Cedera yang berhubungan dengan tulang, otot dan sendi mayoritas terjadi akibat?",
+                          "6. Rate / frekuensi kompresi dada yang tepat saat memberikan RJP pada orang dewasa adalah  ..",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -471,12 +561,60 @@ class _QuestionFThreeState extends State<QuestionFThree> {
                           setState(() {
                             answered = true;
                           });
+                          helperFunction.savePointSpesificLevel("3", -1);
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "80 x/ menit",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
+                          helperFunction.savePointSpesificLevel("3", -1);
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "100 x/menit",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
                           helperFunction.savePointSpesificLevel("3", 5);
                           showDialogCorrect(context, size);
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Olahraga/aktivitas tinggi",
+                          "100-120 x/menit",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -500,31 +638,7 @@ class _QuestionFThreeState extends State<QuestionFThree> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Bekerja",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
-                          setState(() {
-                            answered = true;
-                          });
-                          helperFunction.savePointSpesificLevel("3", -1);
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Aktivitas sehari-hari",
+                          ">120 x/menit",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,

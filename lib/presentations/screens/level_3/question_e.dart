@@ -31,7 +31,7 @@ class _QuestionEThreeState extends State<QuestionEThree> {
     // Uri surveyUrlPatch = Uri(
     //     scheme: 'https', host: 'www.youtube.com', path: '/watch?v=odjUjKzVDXo');
     Uri surveyUrlPatch =
-        Uri.parse('https://www.youtube.com/watch?v=odjUjKzVDXo');
+        Uri.parse('https://www.youtube.com/watch?v=ql_mnGulGmc');
     helperFunction.launchUrlExternal(surveyUrlPatch);
   }
 
@@ -85,12 +85,12 @@ class _QuestionEThreeState extends State<QuestionEThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_e.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: Saat petugas kesehatan telah datang dilokasi\nPenolong awam dapat menghentikan RJP pada korban henti jantung apabila:\n1)	Kembalinya sirkulasi spontan atau muncul nadi (teraba Kembali)\n2)	Saat petugas kesehatan telah datang ke lokasi\n3)	Penolong kelelahan\n4)	Korban henti jantung meninggal dunia dengan di tandai midriasis (pelebaran) pada pada pupil mata",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -99,6 +99,36 @@ class _QuestionEThreeState extends State<QuestionEThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -188,12 +218,12 @@ class _QuestionEThreeState extends State<QuestionEThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_e.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: Saat petugas kesehatan telah datang dilokasi\nPenolong awam dapat menghentikan RJP pada korban henti jantung apabila:\n1)	Kembalinya sirkulasi spontan atau muncul nadi (teraba Kembali)\n2)	Saat petugas kesehatan telah datang ke lokasi\n3)	Penolong kelelahan\n4)	Korban henti jantung meninggal dunia dengan di tandai midriasis (pelebaran) pada pada pupil mata",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -202,6 +232,36 @@ class _QuestionEThreeState extends State<QuestionEThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -291,12 +351,12 @@ class _QuestionEThreeState extends State<QuestionEThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_e.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: Saat petugas kesehatan telah datang dilokasi\nPenolong awam dapat menghentikan RJP pada korban henti jantung apabila:\n1)	Kembalinya sirkulasi spontan atau muncul nadi (teraba Kembali)\n2)	Saat petugas kesehatan telah datang ke lokasi\n3)	Penolong kelelahan\n4)	Korban henti jantung meninggal dunia dengan di tandai midriasis (pelebaran) pada pada pupil mata",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -305,6 +365,36 @@ class _QuestionEThreeState extends State<QuestionEThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -385,7 +475,7 @@ class _QuestionEThreeState extends State<QuestionEThree> {
                         Padding(
                           padding: EdgeInsets.only(top: 80),
                           child: Image.asset(
-                              'assets/images/level_c/question_b.png',
+                              'assets/images/level_c/question_e.png',
                               height: 250,
                               fit: BoxFit.contain),
                         )
@@ -452,7 +542,7 @@ class _QuestionEThreeState extends State<QuestionEThree> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Cedera yang berhubungan dengan tulang, otot dan sendi mayoritas terjadi akibat?",
+                          "5. Kapan pertolongan kepada korban henti jantung oleh Relawan RJP dihentikan?",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -471,12 +561,38 @@ class _QuestionEThreeState extends State<QuestionEThree> {
                           setState(() {
                             answered = true;
                           });
+                          helperFunction.savePointSpesificLevel("3", -1);
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Setelah Polisi datang di lokasi kejadian",
+                          textAlign: TextAlign.center,
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
                           helperFunction.savePointSpesificLevel("3", 5);
                           showDialogCorrect(context, size);
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Olahraga/aktivitas tinggi",
+                          "Saat petugas kesehatan telah datang ke lokasi",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -500,7 +616,8 @@ class _QuestionEThreeState extends State<QuestionEThree> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Bekerja",
+                          "Apabila korban tetap tidak bernafas",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -524,7 +641,8 @@ class _QuestionEThreeState extends State<QuestionEThree> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Aktivitas sehari-hari",
+                          "Apabila korban tetap tidak muncul nadi",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,

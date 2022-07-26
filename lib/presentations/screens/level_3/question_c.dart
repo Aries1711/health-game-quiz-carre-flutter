@@ -31,7 +31,7 @@ class _QuestionCThreeState extends State<QuestionCThree> {
     // Uri surveyUrlPatch = Uri(
     //     scheme: 'https', host: 'www.youtube.com', path: '/watch?v=odjUjKzVDXo');
     Uri surveyUrlPatch =
-        Uri.parse('https://www.youtube.com/watch?v=odjUjKzVDXo');
+        Uri.parse('https://www.youtube.com/watch?v=ql_mnGulGmc');
     helperFunction.launchUrlExternal(surveyUrlPatch);
   }
 
@@ -85,12 +85,12 @@ class _QuestionCThreeState extends State<QuestionCThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_c.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: 30 kompresi dada\nPerbandingan kompresi dada dengan ventilasi (memberikan bantuan napas) dengan 1 orang penolong adalah 30:2 yaitu 30 kali kompresi dada dan 2 kali napas buatan kepada korban dewasa. Untuk penolong awam dapat melakukan 30 kompresi dada saja dalam satu siklus. Kompresi dada dilakukan selama 5 siklus kemudian dilakukan evaluasi pasien apakah nadi pasien muncul Kembali.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -99,6 +99,36 @@ class _QuestionCThreeState extends State<QuestionCThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -188,12 +218,12 @@ class _QuestionCThreeState extends State<QuestionCThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_c.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: 30 kompresi dada\nPerbandingan kompresi dada dengan ventilasi (memberikan bantuan napas) dengan 1 orang penolong adalah 30:2 yaitu 30 kali kompresi dada dan 2 kali napas buatan kepada korban dewasa. Untuk penolong awam dapat melakukan 30 kompresi dada saja dalam satu siklus. Kompresi dada dilakukan selama 5 siklus kemudian dilakukan evaluasi pasien apakah nadi pasien muncul Kembali.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -202,6 +232,36 @@ class _QuestionCThreeState extends State<QuestionCThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -291,12 +351,12 @@ class _QuestionCThreeState extends State<QuestionCThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_c.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: 30 kompresi dada\nPerbandingan kompresi dada dengan ventilasi (memberikan bantuan napas) dengan 1 orang penolong adalah 30:2 yaitu 30 kali kompresi dada dan 2 kali napas buatan kepada korban dewasa. Untuk penolong awam dapat melakukan 30 kompresi dada saja dalam satu siklus. Kompresi dada dilakukan selama 5 siklus kemudian dilakukan evaluasi pasien apakah nadi pasien muncul Kembali.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -305,6 +365,36 @@ class _QuestionCThreeState extends State<QuestionCThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -385,7 +475,7 @@ class _QuestionCThreeState extends State<QuestionCThree> {
                         Padding(
                           padding: EdgeInsets.only(top: 80),
                           child: Image.asset(
-                              'assets/images/level_c/question_b.png',
+                              'assets/images/level_c/question_c.png',
                               height: 250,
                               fit: BoxFit.contain),
                         )
@@ -452,7 +542,7 @@ class _QuestionCThreeState extends State<QuestionCThree> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Cedera yang berhubungan dengan tulang, otot dan sendi mayoritas terjadi akibat?",
+                          "3. Berapa jumlah kompresi dada yang diberikan kepada korban henti jantung dewasa pada setiap 1 siklus?",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -471,12 +561,36 @@ class _QuestionCThreeState extends State<QuestionCThree> {
                           setState(() {
                             answered = true;
                           });
+                          helperFunction.savePointSpesificLevel("3", -1);
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "15 kali kompresi dada",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
                           helperFunction.savePointSpesificLevel("3", 5);
                           showDialogCorrect(context, size);
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Olahraga/aktivitas tinggi",
+                          "30 kali kompresi dada",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -500,7 +614,7 @@ class _QuestionCThreeState extends State<QuestionCThree> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Bekerja",
+                          "100 kali kompresi dada",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -524,7 +638,7 @@ class _QuestionCThreeState extends State<QuestionCThree> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Aktivitas sehari-hari",
+                          "120 kali kompresi dada",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,

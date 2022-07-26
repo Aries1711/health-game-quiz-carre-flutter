@@ -31,7 +31,7 @@ class _QuestionAThreeState extends State<QuestionAThree> {
     // Uri surveyUrlPatch = Uri(
     //     scheme: 'https', host: 'www.youtube.com', path: '/watch?v=odjUjKzVDXo');
     Uri surveyUrlPatch =
-        Uri.parse('https://www.youtube.com/watch?v=odjUjKzVDXo');
+        Uri.parse('https://www.youtube.com/watch?v=-Yqk5cHXsko');
     helperFunction.launchUrlExternal(surveyUrlPatch);
   }
 
@@ -90,7 +90,7 @@ class _QuestionAThreeState extends State<QuestionAThree> {
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: Segera melakukan kompresi dada dan minta tolong orang sekitar untuk menghubungi pelayanan Kesehatan\nTindakan yang paling tepat dilakukan jika menemukan korban henti jantung adalah segera lakukan kompresi dada yang dalam dan cepat. Karena jika tidak dilakukan kompresi dada segera maka harapan hidup korban maka akan semakin menurun. Selain itu juga meminta orang sekitar untuk memanggil pelayanan Kesehatan untuk memberikan pertolongan lebih lanjut dan membawa AED.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -99,6 +99,36 @@ class _QuestionAThreeState extends State<QuestionAThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -193,7 +223,7 @@ class _QuestionAThreeState extends State<QuestionAThree> {
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: Segera melakukan kompresi dada dan minta tolong orang sekitar untuk menghubungi pelayanan Kesehatan\nTindakan yang paling tepat dilakukan jika menemukan korban henti jantung adalah segera lakukan kompresi dada yang dalam dan cepat. Karena jika tidak dilakukan kompresi dada segera maka harapan hidup korban maka akan semakin menurun. Selain itu juga meminta orang sekitar untuk memanggil pelayanan Kesehatan untuk memberikan pertolongan lebih lanjut dan membawa AED.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -202,6 +232,36 @@ class _QuestionAThreeState extends State<QuestionAThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -296,7 +356,7 @@ class _QuestionAThreeState extends State<QuestionAThree> {
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: Segera melakukan kompresi dada dan minta tolong orang sekitar untuk menghubungi pelayanan Kesehatan\nTindakan yang paling tepat dilakukan jika menemukan korban henti jantung adalah segera lakukan kompresi dada yang dalam dan cepat. Karena jika tidak dilakukan kompresi dada segera maka harapan hidup korban maka akan semakin menurun. Selain itu juga meminta orang sekitar untuk memanggil pelayanan Kesehatan untuk memberikan pertolongan lebih lanjut dan membawa AED.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -305,6 +365,36 @@ class _QuestionAThreeState extends State<QuestionAThree> {
                             fontSize: 14,
                           ),
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 20,
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          launchDescriptionUrl();
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            Text(
+                              "VIDEO PENJELASAN",
+                              style: GoogleFonts.rubik(
+                                textStyle: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: colorWhite,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                            Image.asset('assets/images/youtube-button.png')
+                          ],
+                        ),
+                        textColor: colorWhite,
                       ),
                     ),
                     Padding(
@@ -406,7 +496,7 @@ class _QuestionAThreeState extends State<QuestionAThree> {
                     endTime: endTime,
                     onEnd: () async {
                       if (answered == false) {
-                        await helperFunction.savePointSpesificLevel("2", 0);
+                        await helperFunction.savePointSpesificLevel("3", -1);
                         showDialogTimesUp(context, size);
                       }
                     },
@@ -450,7 +540,7 @@ class _QuestionAThreeState extends State<QuestionAThree> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Dampak cedera yang terjadi pada otot maupun ekstremitas seperti keseleo yang paling buruk dapat mengakibatkan kondisi ...",
+                          "1.	Pada saat anda menemukan korban henti jantung dan telah dipastikan bahwa korban tidak sadar, tidak bernafas, dan tidak terdapat nadi. Apakah tindakan anda?",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -469,12 +559,38 @@ class _QuestionAThreeState extends State<QuestionAThree> {
                           setState(() {
                             answered = true;
                           });
+                          helperFunction.savePointSpesificLevel("3", -1);
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Berteriak untuk meminta bantuan",
+                          textAlign: TextAlign.center,
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
                           helperFunction.savePointSpesificLevel("3", 5);
                           showDialogCorrect(context, size);
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Risiko kecacatan",
+                          "Segera melakukan kompresi dada dan minta tolong orang sekitar untuk menghubungi pelayanan Kesehatan",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -498,7 +614,8 @@ class _QuestionAThreeState extends State<QuestionAThree> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Risiko kematian",
+                          "Segera memberikan bantuan nafas dan minta tolong orang sekitar untuk menghubungi pelayanan Kesehatan",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -522,7 +639,8 @@ class _QuestionAThreeState extends State<QuestionAThree> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Risiko kehilangan",
+                          "Mengajak orang sekitar untuk mengangkat korban untuk di bawah di pelayanan Kesehatan",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,

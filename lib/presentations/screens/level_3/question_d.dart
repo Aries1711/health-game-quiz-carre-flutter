@@ -85,12 +85,12 @@ class _QuestionDThreeState extends State<QuestionDThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_d.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: 5-6cm\nLangkah melakukan kompresi dada dewasa yaitu dengan memberikan penekanan pada dada dengan cepat dan kuat sebanyak 30 kali penekanan dengan kedalaman 5 sampai 6 cm. Lokasi penekanan berada pada pertengahan dada yaitu di bawah tulang sternum.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -188,12 +188,12 @@ class _QuestionDThreeState extends State<QuestionDThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_d.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: 5-6cm\nLangkah melakukan kompresi dada dewasa yaitu dengan memberikan penekanan pada dada dengan cepat dan kuat sebanyak 30 kali penekanan dengan kedalaman 5 sampai 6 cm. Lokasi penekanan berada pada pertengahan dada yaitu di bawah tulang sternum.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -291,12 +291,12 @@ class _QuestionDThreeState extends State<QuestionDThree> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_c/question_b.png'),
+                          Image.asset('assets/images/level_c/question_d.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "cedera yang terjadi pada otot, tulang dan sendi ekstremitas meskipun jarang berakibat fatal bila terjadi, kondisi tersebut dapat mengakibatkan disabilitas dalam jangka waktu pendek ataupun panjang.",
+                        "Jawaban: 5-6cm\nLangkah melakukan kompresi dada dewasa yaitu dengan memberikan penekanan pada dada dengan cepat dan kuat sebanyak 30 kali penekanan dengan kedalaman 5 sampai 6 cm. Lokasi penekanan berada pada pertengahan dada yaitu di bawah tulang sternum.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -385,7 +385,7 @@ class _QuestionDThreeState extends State<QuestionDThree> {
                         Padding(
                           padding: EdgeInsets.only(top: 80),
                           child: Image.asset(
-                              'assets/images/level_c/question_b.png',
+                              'assets/images/level_c/question_d.png',
                               height: 250,
                               fit: BoxFit.contain),
                         )
@@ -452,7 +452,7 @@ class _QuestionDThreeState extends State<QuestionDThree> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Cedera yang berhubungan dengan tulang, otot dan sendi mayoritas terjadi akibat?",
+                          "4. Kedalaman minimal yang tepat saat memberikan kompresi dada pada korban henti jantung dewasa yaitu ",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -471,12 +471,60 @@ class _QuestionDThreeState extends State<QuestionDThree> {
                           setState(() {
                             answered = true;
                           });
+                          helperFunction.savePointSpesificLevel("3", -1);
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "3 cm",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
+                          helperFunction.savePointSpesificLevel("3", -1);
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "4 cm",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
                           helperFunction.savePointSpesificLevel("3", 5);
                           showDialogCorrect(context, size);
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Olahraga/aktivitas tinggi",
+                          "5-6 cm",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -500,31 +548,7 @@ class _QuestionDThreeState extends State<QuestionDThree> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Bekerja",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
-                          setState(() {
-                            answered = true;
-                          });
-                          helperFunction.savePointSpesificLevel("3", -1);
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Aktivitas sehari-hari",
+                          ">6 cm",
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
