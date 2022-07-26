@@ -183,7 +183,7 @@ class _FinishScreenLevelAState extends State<FinishScreenLevelA> {
                       style: GoogleFonts.rubik(
                         textStyle: TextStyle(
                           fontWeight: FontWeight.w500,
-                          color: colorBlackSecondary,
+                          color: colorWhite,
                           fontSize: 16,
                         ),
                       ),
