@@ -103,7 +103,7 @@ class _FinishScreenLevelAState extends State<FinishScreenLevelA> {
                     padding: const EdgeInsets.all(20),
                     child: ButtonGeneralSecondary(
                       onPress: () {
-                        if (pointUser == 35) {
+                        if (pointUser >= 15) {
                           globalPreferences.saveLevelOpen(2);
                         }
                         Navigator.of(context).pushNamed('/level');

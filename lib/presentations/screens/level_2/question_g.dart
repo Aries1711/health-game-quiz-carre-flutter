@@ -84,12 +84,12 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_b/answer_g_two.png'),
+                          Image.asset('assets/images/level_b/question_g.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Jawaban: Setengah bagian bawah dari sternum(tulang dada/taju pedang)\nKompresi dada dilakukan dengan meletakkan salah satu telapak tangan di bagian tengah dada korban dan tangan lainnya di atas tangan pertama. Lokasi penekanan adalah pada tulang sternum sepertiga bagian bawah dengan tujuan memompa jantung dari luar sehingga aliran darah terbentuk dan dapat mengalirkan oksigen ke otak dan jaringan tubuh.",
+                        "Jawaban: Jawaban A, B, dan C benar\nCara melakukan kompresi dada yang benar adalah Gunakan tumit satu tangan pada bagian bawah sternum di tengah dada. Letakkan tangan anda yang lain di atas tangan pertama  Luruskan lengan anda dan tekan lurus ke bawah. Kedalaman kompresi harus 5-6 cm.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -180,12 +180,12 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_b/answer_g_two.png'),
+                          Image.asset('assets/images/level_b/question_g.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Jawaban: Setengah bagian bawah dari sternum(tulang dada/taju pedang)\nKompresi dada dilakukan dengan meletakkan salah satu telapak tangan di bagian tengah dada korban dan tangan lainnya di atas tangan pertama. Lokasi penekanan adalah pada tulang sternum sepertiga bagian bawah dengan tujuan memompa jantung dari luar sehingga aliran darah terbentuk dan dapat mengalirkan oksigen ke otak dan jaringan tubuh.",
+                        "Jawaban: Setengah bagian bawah dari sternum(tulang dada/taju pedang)\nCara melakukan kompresi dada yang benar adalah Gunakan tumit satu tangan pada bagian bawah sternum di tengah dada. Letakkan tangan anda yang lain di atas tangan pertama  Luruskan lengan anda dan tekan lurus ke bawah. Kedalaman kompresi harus 5-6 cm.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -276,12 +276,12 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                     ),
                     Center(
                       child:
-                          Image.asset('assets/images/level_b/answer_g_two.png'),
+                          Image.asset('assets/images/level_b/question_g.png'),
                     ),
                     Padding(
                       padding: EdgeInsets.only(left: 20, right: 20, top: 20),
                       child: Text(
-                        "Jawaban: Setengah bagian bawah dari sternum(tulang dada/taju pedang)\nKompresi dada dilakukan dengan meletakkan salah satu telapak tangan di bagian tengah dada korban dan tangan lainnya di atas tangan pertama. Lokasi penekanan adalah pada tulang sternum sepertiga bagian bawah dengan tujuan memompa jantung dari luar sehingga aliran darah terbentuk dan dapat mengalirkan oksigen ke otak dan jaringan tubuh.",
+                        "Jawaban: Setengah bagian bawah dari sternum(tulang dada/taju pedang)\nCara melakukan kompresi dada yang benar adalah Gunakan tumit satu tangan pada bagian bawah sternum di tengah dada. Letakkan tangan anda yang lain di atas tangan pertama  Luruskan lengan anda dan tekan lurus ke bawah. Kedalaman kompresi harus 5-6 cm.",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.rubik(
                           textStyle: TextStyle(
@@ -430,7 +430,7 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "7. Titik kompresi/Landmark tumit tangan yang tepat saat melakukan tindakan kompresi dada pada RJP orang dewasa yaitu:",
+                          "7. Bagaimana melakukan kompresi dada yang benar saat melakukan Resusitasi Jantung Paru?",
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
@@ -453,7 +453,55 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Dada sebelah kiri dari sternum (tulang dada/taju pedang)",
+                          "Gunakan tumit satu tangan pada bagian bawah sternum di tengah dada.",
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Letakkan tangan Anda yang lain di atas tangan pertama ",
+                          textAlign: TextAlign.center,
+                          style: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: colorWhite,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                        textColor: colorWhite,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, left: 10),
+                      child: ButtonGeneralSecondary(
+                        onPress: () {
+                          setState(() {
+                            answered = true;
+                          });
+                          showDialogWrong(context, size);
+                        },
+                        backgroundColor: colorPurplePrimary,
+                        widgetChild: Text(
+                          "Luruskan lengan Anda dan tekan lurus ke bawah. Kompresi harus 5-6 cm",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -477,53 +525,8 @@ class _QuestionGTwoState extends State<QuestionGTwo> {
                         },
                         backgroundColor: colorPurplePrimary,
                         widgetChild: Text(
-                          "Setengah bagian bawah dari sternum	 (tulang dada/taju pedang)",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
-                          setState(() {
-                            answered = true;
-                          });
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Setengah bagian atas dari sternum (tulang dada/taju pedang)",
-                          style: GoogleFonts.rubik(
-                            textStyle: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              color: colorWhite,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                        textColor: colorWhite,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, left: 10),
-                      child: ButtonGeneralSecondary(
-                        onPress: () {
-                          setState(() {
-                            answered = true;
-                          });
-                          showDialogWrong(context, size);
-                        },
-                        backgroundColor: colorPurplePrimary,
-                        widgetChild: Text(
-                          "Dada sebelah kanan dari sternum (tulang dada/taju pedang)",
+                          "Jawaban A, B, dan C",
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.rubik(
                             textStyle: TextStyle(
                               fontWeight: FontWeight.w700,
